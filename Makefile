@@ -22,3 +22,5 @@ all:
 demo:
 	$(MPICC) $(CFLAGS) -o demo demo.c $(EMPI) $(PAPI) -lpapi $(GLPK) -lglpk 
 
+clean:
+	rm -f demo
