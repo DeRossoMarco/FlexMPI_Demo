@@ -1,0 +1,11 @@
+# Binary files
+*
+!/**/
+!*.*
+!Makefile
+
+# VS Code folder
+.vscode
+
+# Mac OS files
+.DS_Store
