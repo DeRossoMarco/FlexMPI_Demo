@@ -16,6 +16,7 @@ CFLAGS=-Wall -g
 MATH= -lm
 
 all:
+	make clean
 	make demo
 	@echo "+++ MAKE COMPLETE +++"
 
