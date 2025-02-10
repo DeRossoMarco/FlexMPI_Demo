@@ -20,7 +20,7 @@ cp $HOME/FlexMPI_Demo/configuration_files/corefiles/corefile.demo1 $HOME/FlexMPI
 sed -i -e 's/nodename/'"$NODENAME"'/g' $HOME/FlexMPI_Demo/configuration_files/corefiles/corefile
 
 # Update rankfile with the current node name
-cp $HOME/FlexMPI_Demo/controller/rankfiles/rankfile1.demo1  $HOME/FlexMPI_Demo/controller/rankfiles/rankfile
+cp $HOME/FlexMPI_Demo/controller/rankfiles/rankfile.demo1  $HOME/FlexMPI_Demo/controller/rankfiles/rankfile
 sed -i -e 's/nodename/'"$NODENAME"'/g' $HOME/FlexMPI_Demo/controller/rankfiles/rankfile
 
 # Get the list of nodes from the nodefile
